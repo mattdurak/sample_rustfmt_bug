@@ -42,7 +42,7 @@ fn main() {
         "cargo::warning=rustfmt output: {}",
         String::from_utf8_lossy(&x.stdout)
     );
-        println!(
+    println!(
         "cargo::warning=rustfmt err: {}",
         String::from_utf8_lossy(&x.stderr)
     );
